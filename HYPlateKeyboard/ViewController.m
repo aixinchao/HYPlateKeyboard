@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"车牌";
+    self.title = @"输入车牌";
     self.view.backgroundColor = [UIColor colorWithRed:245.0 / 255.0 green:245.0 / 255.0 blue:245.0 / 255.0 alpha:1];
     
     [self createInputPlateView];
@@ -29,6 +29,5 @@
     inputPlateView.layer.cornerRadius = 8;
     [self.view addSubview:inputPlateView];
 }
-
 
 @end
